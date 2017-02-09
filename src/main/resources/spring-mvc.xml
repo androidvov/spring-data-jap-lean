@@ -11,7 +11,6 @@
         2.配置MVC View视图
         3.拦截器
         4.URL Mapping
-
     -->
     <context:component-scan base-package="com.zkhr.controller"/>
     <mvc:default-servlet-handler/>
