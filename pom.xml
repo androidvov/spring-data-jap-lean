@@ -19,6 +19,8 @@
     <alibaba-druid-verison>1.0.18</alibaba-druid-verison>
     <mysql-driver-version>5.1.25</mysql-driver-version>
     <aspectjweaver-version>1.8.9</aspectjweaver-version>
+    <mockito-all-version>1.9.5</mockito-all-version>
+    <juint-teste-version>4.12</juint-teste-version>
 
   </properties>
   <dependencies>
@@ -99,10 +101,21 @@
 
 
     <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>${mockito-all-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${spring-version}</version>
+    </dependency>
+
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <version>${juint-teste-version}</version>
     </dependency>
   </dependencies>
   <build>
